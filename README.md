@@ -1,4 +1,4 @@
-### Hi there 👋, my name Atip Kajitamkul
+# Hi there 👋, my name Atip Kajitamkul.
 #### I am software engineering student at KMITL.
 
 Skills: Python / C / C++
@@ -9,6 +9,7 @@ Skills: Python / C / C++
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Audio431)](https://github.com/anuraghazra/github-readme-stats)
 
+# Github stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Audio431&show_icons=true)  
 
 
