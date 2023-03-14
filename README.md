@@ -8,9 +8,9 @@
 <br>
 
 ##  📈 GitHub stats:
-![](https://raw.githubusercontent.com/Audio431/stats/master/generated/overview.svg)
+![](https://raw.githubusercontent.com/Audio431/github-stats/master/generated/overview.svg)
 <br>
-![](https://raw.githubusercontent.com/Audio431/stats/master/generated/languages.svg)
+![](https://raw.githubusercontent.com/Audio431/github-stats/master/generated/languages.svg)
 
 
 
