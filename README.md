@@ -6,8 +6,9 @@
 
 
 #  📈 GitHub stats:
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Audio431&show_icons=true)\n
-![](https://raw.githubusercontent.com/Audio431/stats/master/generated/languages.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/Audio431/stats/master/generated/overview.svg)
+<br>
+![](https://raw.githubusercontent.com/Audio431/stats/master/generated/languages.svg)
 
 
 
