@@ -1,6 +1,6 @@
 # Profile
 ### Hi there 👋. My name's Atip Kajitamkul.
-#### I am software engineering student at KMITL.
+#### I am currently studying on Software Engineering at KMITL.
 
 Skills: Python / C / C++ 
 
