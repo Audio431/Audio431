@@ -1,4 +1,4 @@
-# Hi there! 👋
+# Hi there, I'm Atip Kajitamkul 👋
 * I'm currently studying on Software Engineering at KMITL.
 * Participated C piscine in 42bangkok.
 <br>
