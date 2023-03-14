@@ -12,5 +12,4 @@
 <br>
 ![](https://raw.githubusercontent.com/Audio431/github-stats/master/generated/languages.svg)
 
-
-
+## 📄 [Resume](https://github.com/Audio431/MyResume/blob/main/Resume.pdf)
