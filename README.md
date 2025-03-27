@@ -1,5 +1,5 @@
 # Hi there, I'm Atip Kajitamkul 👋
-* I'm currently studying on Software Engineering at KMITL.
+* a pinultimate year in Software engineering
 <br>
 
 ## 🖥️ Tech Stacks:
