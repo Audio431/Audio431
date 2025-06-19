@@ -1,0 +1,3 @@
+# treat all .ts/.tsx as TypeScript
+*.ts   linguist-language=TypeScript
+*.tsx  linguist-language=TypeScript
