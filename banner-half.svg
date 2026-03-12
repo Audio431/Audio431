@@ -1,0 +1,69 @@
+<svg fill="none" viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .canvas {
+          width: 720px; height: 320px;
+          background-color: #000000;
+          position: relative; overflow: hidden;
+          font-family: Helvetica, Arial, sans-serif;
+        }
+        .grid { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; animation: gridFadeIn 1.8s ease forwards 0.2s; }
+        .gv { position: absolute; top: 0; width: 1px; height: 100%; background: rgba(255,255,255,0.05); }
+        .gh { position: absolute; left: 0; width: 100%; height: 1px; background: rgba(255,255,255,0.05); }
+        .left-bar { position: absolute; left: 40px; top: 0; width: 3px; height: 0%; background: #fff; animation: lineGrow 0.8s ease forwards 0.4s; }
+        .cross-h, .cross-v { position: absolute; background: rgba(255,255,255,0.08); opacity: 0; animation: geoIn 0.6s ease forwards 1.6s; }
+        .cross-h { right: 80px; top: 60px; width: 80px; height: 2px; }
+        .cross-v { right: 118px; top: 22px; width: 2px; height: 80px; }
+        .hollow-sq { position: absolute; right: 40px; bottom: 30px; width: 48px; height: 48px; border: 2px solid rgba(255,255,255,0.12); opacity: 0; animation: geoIn 0.6s ease forwards 1.8s; }
+        .filled-sq { position: absolute; right: 64px; bottom: 54px; width: 16px; height: 16px; background: #fff; opacity: 0; animation: geoIn 0.5s ease forwards 2s; }
+        .circle-outline { position: absolute; right: 200px; top: 30px; width: 40px; height: 40px; border: 2px solid rgba(255,255,255,0.1); border-radius: 50%; opacity: 0; animation: geoIn 0.5s ease forwards 1.9s; }
+        .dot { position: absolute; width: 5px; height: 5px; border-radius: 50%; background: #fff; opacity: 0; }
+        .dot-1 { right: 108px; bottom: 44px; animation: geoIn 0.4s ease forwards 2.1s; }
+        .dot-2 { right: 108px; bottom: 60px; animation: geoIn 0.4s ease forwards 2.2s; }
+        .dot-3 { right: 124px; bottom: 44px; animation: geoIn 0.4s ease forwards 2.3s; }
+        .diag-line { position: absolute; right: 160px; bottom: 16px; width: 70px; height: 2px; background: rgba(255,255,255,0.08); transform: rotate(-35deg); transform-origin: right center; opacity: 0; animation: geoIn 0.5s ease forwards 2s; }
+        .bottom-bar { position: absolute; left: 68px; bottom: 36px; width: 0px; height: 2px; background: rgba(255,255,255,0.15); animation: barExpand 0.6s ease forwards 1.5s; }
+        .circle-lg { position: absolute; right: 40px; top: 40px; width: 110px; height: 110px; border: 1px solid rgba(255,255,255,0.06); border-radius: 50%; opacity: 0; animation: geoIn 0.8s ease forwards 1.4s; }
+        .name { position: absolute; left: 68px; top: 70px; font-size: 64px; font-weight: 700; letter-spacing: -2px; color: #fff; line-height: 1; opacity: 0; transform: translateY(16px); animation: textReveal 0.8s ease forwards 0.7s; }
+        .rule { position: absolute; left: 68px; top: 150px; width: 0px; height: 2px; background: #fff; animation: ruleExpand 0.6s ease forwards 1.2s; }
+        .meta { position: absolute; left: 68px; top: 168px; font-size: 12px; font-weight: 400; letter-spacing: 3.5px; text-transform: uppercase; color: rgba(255,255,255,0.5); opacity: 0; animation: textReveal 0.8s ease forwards 1.4s; }
+        @keyframes gridFadeIn { to { opacity: 1; } }
+        @keyframes lineGrow { to { height: 100%; } }
+        @keyframes textReveal { to { opacity: 1; transform: translateY(0); } }
+        @keyframes ruleExpand { to { width: 220px; } }
+        @keyframes geoIn { to { opacity: 1; } }
+        @keyframes barExpand { to { width: 120px; } }
+      </style>
+      <div class="canvas">
+        <div class="grid">
+          <div class="gv" style="left:40px;"></div>
+          <div class="gv" style="left:180px;"></div>
+          <div class="gv" style="left:320px;"></div>
+          <div class="gv" style="left:460px;"></div>
+          <div class="gv" style="left:600px;"></div>
+          <div class="gh" style="top:64px;"></div>
+          <div class="gh" style="top:128px;"></div>
+          <div class="gh" style="top:192px;"></div>
+          <div class="gh" style="top:256px;"></div>
+        </div>
+        <div class="left-bar"></div>
+        <div class="name">Atip K.</div>
+        <div class="rule"></div>
+        <div class="meta">Software Engineer</div>
+        <div class="bottom-bar"></div>
+        <div class="circle-lg"></div>
+        <div class="circle-outline"></div>
+        <div class="cross-h"></div>
+        <div class="cross-v"></div>
+        <div class="hollow-sq"></div>
+        <div class="filled-sq"></div>
+        <div class="diag-line"></div>
+        <div class="dot dot-1"></div>
+        <div class="dot dot-2"></div>
+        <div class="dot dot-3"></div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
